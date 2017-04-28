@@ -1,19 +1,13 @@
 # Otp
 
-**TODO: Add description**
+Code from this session: https://craft-conf.com/speaker/ClaudioOrtolina
 
-## Installation
+## Goal
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `otp` to your list of dependencies in `mix.exs`:
+> Claudio explores Elixir's concurrent programming by re-creating a minimal version of GenServer, one of the most important constructs from OTP, the concurrent programming framework included in Erlang and Elixir. 
 
-```elixir
-def deps do
-  [{:otp, "~> 0.1.0"}]
-end
-```
+Unfortunately, we got nowhere near that, but it was fun anyways.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/otp](https://hexdocs.pm/otp).
+## Run tests
 
+`mix test`
